@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -fzero-link -o ${CFILE//.c/.o}
+gcc $CFILE -c -E -o ${CFILE//.c/.o}
