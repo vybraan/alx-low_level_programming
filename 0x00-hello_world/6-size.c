@@ -1,5 +1,6 @@
 #include <stdio.h>
-#define SIZEOF(Type) printf("Size of a " #Type ": %zu %s\n", sizeof(Type), " byte(s)")
+#define SIZEOF(con, Type) printf("Size of  "#con " " #Type ": %zu %s\n", sizeof(Type), " byte(s)")
+
 /**
  * main - Entry point
  *
@@ -7,11 +8,11 @@
  */
 int main(void)
 {
-	SIZEOF(int);
-	SIZEOF(long);
-	SIZEOF(long int);
-	SIZEOF(long long);
-	SIZEOF(float);
-	/*printf("with proper grammar, but the outcome is a piece of art,\n");*/
+	SIZEOF(a, char);
+	SIZEOF(an, int);
+	SIZEOF(a,long);
+	SIZEOF(a, long int);
+	SIZEOF(a, long long);
+	SIZEOF(a, float);
 	return (0);
 }
