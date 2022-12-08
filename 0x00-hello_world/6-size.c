@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZEOF(Type) printf("Size of a " #Type ": %zu\n", sizeof(Type) + " byte(s)")
+#define SIZEOF(Type) printf("Size of a " #Type ": %zu %s\n", sizeof(Type), " byte(s)")
 /**
  * main - Entry point
  *
