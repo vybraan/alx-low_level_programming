@@ -2,7 +2,7 @@
 
 /**
  * main - takes the string of aphabet and prints
- * all one by one in a loop
+ * all one by one in a loop lowercase and upperacse
  *
  * Return: Always 0 (Success)
  */
