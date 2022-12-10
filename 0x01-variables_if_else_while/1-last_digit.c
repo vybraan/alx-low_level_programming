@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - generates an random number and tells if is greater than 5 or less than 6 or zero
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
