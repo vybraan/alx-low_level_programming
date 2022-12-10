@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - generates an random number and tells if is greater than 5 or less than 6 or zero
+ * main - generates an random number and tells if 
+ * is greater than 5 or less than 6 or zero
  *
  * Return: Always 0 (Success)
  */
@@ -24,7 +25,7 @@ int main(void)
 	}
 	else
 	{
-		if ( lastNum > 5 )
+		if (lastNum > 5)
 		{
 			printf("Last digit of %i is %d and is greater than 5\n", n, lastNum);
 		}
