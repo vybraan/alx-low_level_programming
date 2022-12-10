@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - generates an random number and tells if 
+ * main - generates an random number and tells if
  * is greater than 5 or less than 6 or zero
  *
  * Return: Always 0 (Success)
