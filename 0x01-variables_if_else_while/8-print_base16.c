@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char base16[] = "123456789abcdef";
+	char base16[] = "0123456789abcdef";
 	int i;
 
 	for (i = 0; i < 16; i++)
