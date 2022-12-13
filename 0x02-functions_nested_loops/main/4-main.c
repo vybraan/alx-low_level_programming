@@ -1,10 +1,11 @@
-#include "main.h"
+#include"../main.h"
+
 /**
- * main - Entry point.
+ * main - check the code for ALX School students
  *
- * Return: 0 Success
- */
- 
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	int r;

@@ -1,11 +1,17 @@
-#include "main.h"
+#include"main.h"
+
 /**
- * main - Entry point.
+ * add - add two integers
  *
- * Return: 0 Success
- */
- 
-int add(int i, int j)
+ * @a: first input
+ * @b: second input
+ *
+ * Return: sum of a & b
+*/
+
+int add(int a, int b)
 {
-	return (i + j);
+	int sum = a + b;
+
+	return (sum);
 }
