@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-_puts_recursion(char *string);
+ void _puts_recursion(char *string);
 
 #endif /* MAIN_H */
